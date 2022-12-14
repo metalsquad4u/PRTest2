@@ -19,6 +19,7 @@ jobs:
           author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
           signoff: false
           branch: Auto-PR-Branch
+          base: main
           delete-branch: true
           title: 'Demo Test for auto Pull Request for new-branch BRANCH'
           body: |
@@ -31,5 +32,5 @@ jobs:
             report
             automated pr
           assignees: Abdulakeem
-          reviewers: sulazhy, YAbdul
+          reviewers: YAbdul
           draft: false
