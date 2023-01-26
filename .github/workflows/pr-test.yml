@@ -23,7 +23,7 @@ jobs:
         branch: dev-to-main
         base: main
         title: "Requesting Pull Request"
-        committer: Abdul <noreply@github.com>
+        committer: Abdul <metalsquad4u@gmail.com>
         author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
         body: "I want to merge from feature branch to main"
         token: ${{ secrets.GITHUB_TOKEN }}
